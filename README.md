@@ -1,4 +1,4 @@
-# humphreysBus
+# CP Humphreys Bus: Data Analysis, Visualization, and Simulation
 This project was a request for analytical support by 8th Army Korea ORSAs. The project primarily consisted of data analysis and visualization of two datasets, and a request for quantitative technique to facilitate comparing varying route options in implementing potential new bus routes. The outputs were a variety of visualizations and a basic SimPy simulation that allowed for comparing alternate routes via a "time in transit" metric to compare the existing routes to potential new ones. 
 
 # Setup
