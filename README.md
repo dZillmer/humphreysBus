@@ -1,5 +1,5 @@
 # humphreysBus
-CDAS work on CP Humphreys Project
+This project was a request for analytical support by 8th Army Korea ORSAs. The project primarily consisted of data analysis and visualization of two datasets, and a request for quantitative technique to facilitate comparing varying route options in implementing potential new bus routes. The outputs were a variety of visualizations and a basic SimPy simulation that allowed for comparing alternate routes via a "time in transit" metric to compare the existing routes to potential new ones. 
 
 # Setup
 Project was a data analysis, visualization, and potential simulation request from 8th Army Korea ORSAs. The Garrison on Cp Humphreys wanted to make the bus routes better, and wanted a data-driven analysis to inform the changes. The two main datasets for this analysis are: `busData.csv` and `taxiData.csv`. To help with the visualizations, I had to create the `locationSheet`, `locationDictionary`, and `locationBusOnly` files by manually looking up locations using installation maps and open source imagery from Google. 
@@ -17,7 +17,7 @@ To conduct the initial exploratory analysis, I used Jupyter Notebooks to import,
 With a solid idea of what the data looked like, I then set about building some basic SimPy simulations to model the existing route. My basic workflow, as seen across the `busSimulation.py` file iterations (before I began to use Git for version control!), was:
 - clean, explore, and analyze data (as seen above)
 - identify a metric for success (i.e., in this case, we considered average transit time)
-- use data to build ``oriented demand'' data per stop
+- use data to build "oriented demand" data per stop
 - use Poisson random variables calibrated off data to estimate basic simulation inputs
 - verify simulation works by comparing it to reality
 - calculate current route metrics
