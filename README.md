@@ -26,3 +26,9 @@ With a solid idea of what the data looked like, I then set about building some b
 One example of the simulation versus data visualizations is below.
 
 ![Sim Versus Observation](/images/simComparisonOverview.png)
+
+# Results
+|   | Green Route | Blue Route | Red/Black Route | Weighted Average|
+|---|-------------|------------|-----------------|-----------------|
+|Old Route | 12.94 |     12.68 |       12.06     | 12.57|
+|New Route | 9.55  |      9.38 |        9.46     | 9.47 |
