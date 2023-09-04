@@ -16,12 +16,13 @@ To conduct the initial exploratory analysis, I used Jupyter Notebooks to import,
 # Simulation
 With a solid idea of what the data looked like, I then set about building some basic SimPy simulations to model the existing route. My basic workflow, as seen across the `busSimulation.py` file iterations (before I began to use Git for version control!), was:
 - clean, explore, and analyze data (as seen above)
+- identify a metric for success (i.e., in this case, we considered average transit time)
 - use data to build ``oriented demand'' data per stop
-- use Poisson random variables calibrated off data to build basic simulation
+- use Poisson random variables calibrated off data to estimate basic simulation inputs
 - verify simulation works by comparing it to reality
-- once simulation works, develop a metric for current route
-- calculate current route metric
+- calculate current route metrics
 - using proposed routes, compare new route metrics to old routes to assess which were better
 
 One example of the simulation versus data visualizations is below.
+
 ![Sim Versus Observation](/images/simComparisonOverview.png)
